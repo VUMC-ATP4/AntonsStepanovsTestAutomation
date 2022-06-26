@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2070b9f1-7d77-401a-a8b5-dd27956e402c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mavenTestNGHomework/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/MavenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/SeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mavenTestNGHomework/CalculatorTestNG.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CalculatorTestNG (5)">
+  <component name="RunManager" selected="Application.MavenTest">
+    <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
+      <module name="AntonsStepanovsTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTestNG (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
@@ -76,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTestNG (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTestNG (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTestNG.testSubstract" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +119,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
       <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testSubstract" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTestNG (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
         <pattern>
@@ -119,24 +136,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTestNG (5)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AntonsStepanovsTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTestNG" />
+      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.SeleniumTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -146,10 +146,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CalculatorTestNG (5)" />
-        <item itemvalue="TestNG.CalculatorTestNG (4)" />
-        <item itemvalue="TestNG.CalculatorTestNG (3)" />
-        <item itemvalue="TestNG.CalculatorTestNG (2)" />
+        <item itemvalue="Application.MavenTest" />
+        <item itemvalue="TestNG.SeleniumTest (2)" />
+        <item itemvalue="TestNG.CalculatorTestNG" />
+        <item itemvalue="TestNG.CalculatorTestNG.testSubstract" />
         <item itemvalue="TestNG.CalculatorTestNG (1)" />
       </list>
     </recent_temporary>

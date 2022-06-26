@@ -25,7 +25,7 @@ public class CalculatorTestNG {
 
     @AfterClass
     public void pecTesta() {
-        System.out.println("Visi testi veiksmīgi pabeigti!");
+        System.out.println("Visi testi pabeigti!");
     }
 
 
