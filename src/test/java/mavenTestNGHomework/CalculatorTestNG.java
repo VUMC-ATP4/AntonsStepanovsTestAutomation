@@ -28,7 +28,6 @@ public class CalculatorTestNG {
         System.out.println("Visi testi pabeigti!");
     }
 
-
     @Test
     public void testAdd() {
          Assert.assertEquals(calculator.add(13, 25), 38);

@@ -42,8 +42,6 @@ public class SeleniumTest {
         String expectedTitle = "Latvijas valsts portāls";
         String actualTitle = chromeBrowseris.getTitle();
         Assert.assertEquals(actualTitle,expectedTitle);
-
-
     }
 
     @Test
@@ -53,6 +51,5 @@ public class SeleniumTest {
         String expectedTitle = "Google";
         String actualTitle = chromeBrowseris.getTitle();
         Assert.assertEquals(actualTitle,expectedTitle);
-
     }
 }
