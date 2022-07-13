@@ -19,6 +19,7 @@ public class Example {
 
         System.out.println(employee1.toString());
         System.out.println(employee2.toString());
+        System.out.println(employee3.toString());
 
         System.out.println(faker.pokemon().name());
         System.out.println(faker.chuckNorris().fact());
