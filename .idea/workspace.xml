@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2070b9f1-7d77-401a-a8b5-dd27956e402c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/Footer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/InventoryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/acodemyShop/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classRoomEight/AcodemyShopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/CucumberScenarioOutlineExample.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/sauceDemoTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classroomSix/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classroomSix/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/InventoryPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -52,6 +47,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton/Desktop/JAVAATP4/AntonsStepanovsTestAutomation&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -67,118 +64,116 @@
       <recent name="C:\Users\Anton\Desktop\JAVAATP4\AntonsStepanovsTestAutomation\src\test\resources" />
       <recent name="C:\Users\Anton\Desktop\JAVAATP4\AntonsStepanovsTestAutomation\src\test\java\resources" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="mavenTestNGHomework" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pageObjectsHomework" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User sees error message if username empty">
-    <configuration name="Feature: MyFirstCucumberTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="TestNG.sauceDemoTests.SuccessfulOrderTest">
+    <configuration name="sauceDemoTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: MyFirstCucumberTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: SauceLabsLogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="sauceDemoTests.CartPageObject" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: SauceLabsLogin" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="METHOD_NAME" value="CartPageObject" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="sauceDemoTests.CheckoutOverviewPageObject" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
-      <option name="NAME_FILTER" value="^Successful login$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful login$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Successful login" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="METHOD_NAME" value="CheckoutOverviewPageObject" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Test multiple page titles" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CucumberScenarioOutlineExample.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="sauceDemoTests.CheckoutOverviewTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
-      <option name="NAME_FILTER" value="^Test multiple page titles$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test multiple page titles$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Test multiple page titles" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="METHOD_NAME" value="CheckoutOverviewTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User sees error message if username empty" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="sauceDemoTests.SuccessfulOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
-      <option name="NAME_FILTER" value="^User sees error message if username empty$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees error message if username empty$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User sees error message if username empty" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="METHOD_NAME" value="SuccessfulOrderTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User sees error message if username empty" />
-        <item itemvalue="Cucumber Java.Feature: SauceLabsLogin" />
-        <item itemvalue="Cucumber Java.Scenario: Successful login" />
-        <item itemvalue="Cucumber Java.Scenario: Test multiple page titles" />
-        <item itemvalue="Cucumber Java.Feature: MyFirstCucumberTest" />
+        <item itemvalue="TestNG.sauceDemoTests.SuccessfulOrderTest" />
+        <item itemvalue="TestNG.sauceDemoTests.CheckoutOverviewTest" />
+        <item itemvalue="TestNG.sauceDemoTests" />
+        <item itemvalue="TestNG.sauceDemoTests.CheckoutOverviewPageObject" />
+        <item itemvalue="TestNG.sauceDemoTests.CartPageObject" />
       </list>
     </recent_temporary>
   </component>
