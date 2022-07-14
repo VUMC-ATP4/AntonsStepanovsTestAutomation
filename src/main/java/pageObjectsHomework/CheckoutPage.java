@@ -12,10 +12,10 @@ public class CheckoutPage {
     private By lastNameInputField = By.id("last-name");
     private By zipCodeInputField = By.id("postal-code");
 
+    private By errorMessage = By.cssSelector("h3[data-test=error]");
+
     private By continueButton = By.id("continue");
-    private By checkoutItem = By.className("inventory_item_name");
-    private By checkoutItemQty = By.cssSelector("div[class=cart_quantity]");
-    private By finishButton = By.id("finish");
+
 
     public CheckoutPage(WebDriver driver) {
         this.driver = driver;
@@ -34,18 +34,10 @@ public class CheckoutPage {
     public WebElement getContinueButton(){
         return driver.findElement(continueButton);
     }
-
-    public WebElement getCheckoutItem(){
-        return driver.findElement(checkoutItem);
+    public WebElement getErrorMessage(){
+        return driver.findElement(errorMessage);
     }
 
-    public WebElement getCheckoutItemQty(){
-        return driver.findElement(checkoutItemQty);
-    }
-
-    public WebElement getFinishButton(){
-        return driver.findElement(finishButton);
-    }
 
     public void checkoutData(String firstname, String lastname, String zipcode){
         getFirstNameInputField().sendKeys(firstname);

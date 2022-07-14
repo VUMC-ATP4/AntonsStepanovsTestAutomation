@@ -11,13 +11,12 @@ public class InventoryPage {
 
     private  By addToCartBackpack = By.id("add-to-cart-sauce-labs-backpack");
     private  By goToCart = By.className("shopping_cart_link");
-//    private By linkedInLink = By.linkText("LinkedIn");
-//    private By facebook = By.linkText("Facebook");
-//    private By twitter = By.linkText("Twitter");
+
 
     public InventoryPage(WebDriver driver) {
         this.driver = driver;
     }
+
 
     public WebElement getPageTitle(){
         return driver.findElement(pageTitle);
@@ -31,7 +30,9 @@ public class InventoryPage {
         return driver.findElement(goToCart);
     }
 
-//    public WebElement getLinkedInLink(){
-//        return driver.findElement(linkedInLink);
-//    }
+    public void addToCartAndGoToCart() {
+        getAddToCartBackpack().click();
+        getGoToCart().click();
+    }
+
 }
