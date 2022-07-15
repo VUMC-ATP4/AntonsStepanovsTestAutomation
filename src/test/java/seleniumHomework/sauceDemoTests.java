@@ -14,7 +14,7 @@ import java.time.Duration;
 public class sauceDemoTests {
 
     WebDriver driver;
-    WebDriverWait wait;
+    //WebDriverWait wait;
     public final String SAUCELABS_URL = "https://www.saucedemo.com/";
 
 
@@ -23,8 +23,10 @@ public class sauceDemoTests {
         System.out.println("Pirms testa");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-
+        //wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        driver.manage()
+                .timeouts()
+                .implicitlyWait(Duration.ofSeconds(10));
 
     }
 

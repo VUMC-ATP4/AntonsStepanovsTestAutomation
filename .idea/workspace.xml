@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2070b9f1-7d77-401a-a8b5-dd27956e402c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/seleniumHomework/sauceDemoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/sauceDemoTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +71,25 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.sauceDemoTests.LoginTest">
+  <component name="RunManager" selected="TestNG.sauceDemoTests">
+    <configuration name="SeleniumTest.localHTMLExerciseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AntonsStepanovsTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SeleniumTest" />
+      <option name="METHOD_NAME" value="localHTMLExerciseTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sauceDemoTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
@@ -128,24 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceDemoTests.SuccessfulOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AntonsStepanovsTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="SuccessfulOrderTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sauceDemoTests.errorMessageFirstNameEmptyTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
@@ -166,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.sauceDemoTests.LoginTest" />
         <item itemvalue="TestNG.sauceDemoTests" />
+        <item itemvalue="TestNG.SeleniumTest.localHTMLExerciseTest" />
+        <item itemvalue="TestNG.sauceDemoTests.LoginTest" />
         <item itemvalue="TestNG.sauceDemoTests.CartItemTest" />
         <item itemvalue="TestNG.sauceDemoTests.errorMessageFirstNameEmptyTest" />
-        <item itemvalue="TestNG.sauceDemoTests.SuccessfulOrderTest" />
       </list>
     </recent_temporary>
   </component>
