@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2070b9f1-7d77-401a-a8b5-dd27956e402c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/seleniumHomework/sauceDemoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/sauceDemoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classRoomEight/AcodemyShopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classRoomEight/AcodemyShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +39,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "last_opened_file_path": "C:/Users/Anton/Desktop/JAVAATP4/AntonsStepanovsTestAutomation",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Groovy"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anton/Desktop/JAVAATP4/AntonsStepanovsTestAutomation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Groovy&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Anton\Desktop\JAVAATP4\AntonsStepanovsTestAutomation" />
@@ -71,18 +73,57 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.sauceDemoTests">
-    <configuration name="SeleniumTest.localHTMLExerciseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: User sees correst error message">
+    <configuration name="Feature: MyFirstCucumberTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AntonsStepanovsTestAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: MyFirstCucumberTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classroomSeven.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classroomSeven" />
-      <option name="MAIN_CLASS_NAME" value="classroomSeven.SeleniumTest" />
-      <option name="METHOD_NAME" value="localHTMLExerciseTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User sees correst error message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SauceLabsLogin.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AntonsStepanovsTestAutomation" />
+      <option name="NAME_FILTER" value="^User sees correst error message$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees correst error message$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User sees correst error message" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcodemyShopTest.keyboardClickTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AntonsStepanovsTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classRoomEight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="keyboardClickTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,34 +131,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceDemoTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest.remoteTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sauceDemoTests.CartItemTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AntonsStepanovsTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="CartItemTest" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="remoteTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,35 +149,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sauceDemoTests.LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AcodemyShopTest.seleniumDocTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="PATTERN" value="classRoomEight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="LoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="sauceDemoTests.errorMessageFirstNameEmptyTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AntonsStepanovsTestAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="seleniumHomework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="seleniumHomework" />
-      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
-      <option name="METHOD_NAME" value="errorMessageFirstNameEmptyTest" />
+      <option name="PACKAGE_NAME" value="classRoomEight" />
+      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
+      <option name="METHOD_NAME" value="seleniumDocTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -163,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.sauceDemoTests" />
-        <item itemvalue="TestNG.SeleniumTest.localHTMLExerciseTest" />
-        <item itemvalue="TestNG.sauceDemoTests.LoginTest" />
-        <item itemvalue="TestNG.sauceDemoTests.CartItemTest" />
-        <item itemvalue="TestNG.sauceDemoTests.errorMessageFirstNameEmptyTest" />
+        <item itemvalue="Cucumber Java.Scenario: User sees correst error message" />
+        <item itemvalue="Cucumber Java.Feature: MyFirstCucumberTest" />
+        <item itemvalue="TestNG.AcodemyShopTest.remoteTest" />
+        <item itemvalue="TestNG.AcodemyShopTest.keyboardClickTest" />
+        <item itemvalue="TestNG.AcodemyShopTest.seleniumDocTest" />
       </list>
     </recent_temporary>
   </component>

@@ -37,12 +37,12 @@ public class LoginSteps {
         driver.quit();
     }
 
-    @Given("User is navigated to {string} page")
+    @Given("user is navigated to {string} page")
     public void user_is_navigated_to_page(String url) {
       driver.get(url);
     }
 
-    @Given("User is navigated to saucelabs page")
+    @Given("user is navigated to saucelabs page")
     public void user_is_navigated_to_saucelabs_page() {
         driver.get(SAUCELABS_URL);
         Assert.assertEquals(driver.getTitle(),"Swag Labs");

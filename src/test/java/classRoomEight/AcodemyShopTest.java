@@ -1,6 +1,7 @@
 package classRoomEight;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.interactions.Actions;
@@ -34,13 +35,18 @@ public class AcodemyShopTest {
 
         System.out.println("Pirms testa");
 
-        InternetExplorerOptions browserOptions = new InternetExplorerOptions();
-        browserOptions.setCapability("platformName", "Windows 10");
-        browserOptions.setCapability("browserVersion", "11");
-        Map<String, Object> sauceOptions = new HashMap<>();
-        sauceOptions.put("build", "<W10 IE11>");
-        sauceOptions.put("name", "<your test name>");
-        browserOptions.setCapability("sauce:options", sauceOptions);
+        //Uz datora
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+//        InternetExplorerOptions browserOptions = new InternetExplorerOptions();
+//        browserOptions.setCapability("platformName", "Windows 10");
+//        browserOptions.setCapability("browserVersion", "11");
+//        Map<String, Object> sauceOptions = new HashMap<>();
+//        sauceOptions.put("build", "<W10 IE11>");
+//        sauceOptions.put("name", "<your test name>");
+//        browserOptions.setCapability("sauce:options", sauceOptions);
 
 //        InternetExplorerOptions browserOptions = new InternetExplorerOptions();
 //        browserOptions.setCapability("platformName", "Windows 7");
@@ -60,7 +66,7 @@ public class AcodemyShopTest {
 
 
         //uz servera saucedemo
-        driver = new RemoteWebDriver(new URL("https://oauth-asempaj-9e406:8c1aa342-a785-4391-8404-04a5077cba4e@ondemand.eu-central-1.saucelabs.com:443/wd/hub"), browserOptions);
+//        driver = new RemoteWebDriver(new URL("https://oauth-asempaj-9e406:8c1aa342-a785-4391-8404-04a5077cba4e@ondemand.eu-central-1.saucelabs.com:443/wd/hub"), browserOptions);
 
         //uz datora servera
 //        ChromeOptions chromeOptions = new ChromeOptions();
