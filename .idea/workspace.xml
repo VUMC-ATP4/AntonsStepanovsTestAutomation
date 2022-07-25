@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2070b9f1-7d77-401a-a8b5-dd27956e402c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/SQLConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sauceDemoTestsCucumber.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/SQLConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/SQLConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,32 +72,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SQLConnect">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Successful login">
     <configuration name="SQLConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.SQLConnect" />
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: MyFirstCucumberTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/MyFirstCucumberTest.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AntonsStepanovsTestAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: MyFirstCucumberTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +94,26 @@
       <module name="AntonsStepanovsTestAutomation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: SauceLabsLogin" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Successful login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/sauceDemoTestsCucumber.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AntonsStepanovsTestAutomation" />
+      <option name="NAME_FILTER" value="^Successful login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Successful login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Successful login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -143,18 +145,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AcodemyShopTest.remoteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="sauceDemoTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AntonsStepanovsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classRoomEight.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="classRoomEight" />
-      <option name="MAIN_CLASS_NAME" value="classRoomEight.AcodemyShopTest" />
-      <option name="METHOD_NAME" value="remoteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Successful login" />
+        <item itemvalue="TestNG.sauceDemoTests" />
         <item itemvalue="Application.SQLConnect" />
         <item itemvalue="Cucumber Java.Feature: SauceLabsLogin" />
         <item itemvalue="Cucumber Java.Scenario: User sees correst error message" />
-        <item itemvalue="Cucumber Java.Feature: MyFirstCucumberTest" />
-        <item itemvalue="TestNG.AcodemyShopTest.remoteTest" />
       </list>
     </recent_temporary>
   </component>

@@ -1,5 +1,7 @@
 package utils;
 
+import org.testng.Assert;
+
 import java.sql.*;
 
 public class SQLConnect {
@@ -27,11 +29,15 @@ public class SQLConnect {
         ResultSet rs1 = stmt.executeQuery("SELECT MIN(t.Milliseconds),t.Composer from Track t");
 
 
+        String composerName = null;
+
         while(rs1.next()){
             //Display values
-            System.out.print("Shortest song COMPOSER NAME: " + rs1.getString("Composer"));
+            composerName = rs1.getString("Composer");
         }
+        Assert.assertEquals(composerName, "Samuel Rosa");
 
+        System.out.print("Shortest song COMPOSER NAME IS: "+ composerName);
         connection.close();
     }
 
